@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@font-face { /* criando a font no proprio css - não precisa existir a font no computador do usuario  */
+	font-family: 'FonteLogo';
+	src: url("../fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+	font-family: Arial, sans-serif;
+	color: rgba(0,0,0,.4);
+	background: url(../_imagens/fundo-pagina1.jpg);
+}
+
+p{
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	text-align: center;
+	text-indent: 50px;
+	color: white;	
+}
+
+
+header#cabecalho img#icone { 
+	position: absolute;
+	left: 80px;  
+	top: 40px;
+	width: 140px;
+}	
+
+header#cabecalho {
+	background: url(../_imagens/fundo-cabecalho1.jpg);
+	color: white;
+	border-bottom: 1px #606060 solid;
+	height: 170px;
+	width: 1600px;
+} 
+
+header#cabecalho h1 {
+	font-family: 'FonteLogo', sans-serif; 
+	font-size: 30pt;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	color: red;
+	text-align: center;
+
+}
+
+header#cabecalho h2 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 35px;
+	text-align: center;
+	color: white;
+}
+
+header#cabecalho h3 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 15px;
+	text-align: right;
+	color: green;
+}
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	position: absolute;
+	top: -20px;
+	left: -20px;
+}
+
+nav#menu li{
+	font-family: 'FonteLogo', sans-serif;
+	display: inline-block;		
+	color: white;	
+	padding: 5px;
+	margin: 2px;	
+	font-size: 15pt;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background: url(../_imagens/fundo-cabecalho2.jpg);	
+}
+
+article#noticia-principal h2 {
+	text-align: center;
+	font-size: 13pt;
+	color: white;
+	background: url(../_imagens/fundo-cabecalho2.jpg);
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+	width: 1600px;
+}
+
+article#noticia-principal p {
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+	font-size: 10pt;
+	color: white;
+	background: url(../_imagens/fundo-cabecalho2.jpg);
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+	width: 1600px;
+}
+
+fieldset {
+	width: 1580px;
+}
+legend {
+	color: white;
+}
+
+table {
+	color: white;
+}
+
+table#desc {
+	width: 1400px;
+	font-family: 'FonteLogo', font-size;
+	font-size: 15pt;
+}
+
+footer#rodape {
+	position: absolute;
+	width: 1500px;
+	clear: both;
+	border-top: 1px solid #606060;
+	color: white;	
+}
+footer#rodape p {
+	text-align: center;
+	color: white;
+	font-size: 20	pt;
+}
